@@ -20,15 +20,6 @@ PLOT_EVERY_N_STEPS = 100
 SKIP_FIRST_N_ITERATIONS = 5000
 
 
-r"""
-LBM Grid: D2Q9
-    6   2   5
-      \ | /
-    3 - 0 - 1
-      / | \
-    7   4   8 
-"""
-
 N_DISCRETE_VELOCITIES = 9
 
 LATTICE_VELOCITIES = jnp.array([
