@@ -2,8 +2,6 @@
 import jax
 import jax.numpy as jnp
 import matplotlib.pyplot as plt
-import cmasher as cmr
-from tqdm import tqdm
 
 N_ITERATIONS = 15_000
 REYNOLDS_NUMBER = 80
